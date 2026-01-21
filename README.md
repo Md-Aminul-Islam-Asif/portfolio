@@ -57,13 +57,6 @@ This project includes authentication, admin dashboard, project management, and a
 ---
 
 ## 🗄️ Database Structure
-
-### `users` table
-```sql
-CREATE TABLE users (
-  id INT AUTO_INCREMENT PRIMARY KEY,
-  email VARCHAR(255) UNIQUE NOT NULL,
-  password VARCHAR(255) NOT NULL,
-  reset_token VARCHAR(255),
-  token_expire DATETIME
-);
+- Users table (authentication & roles)
+- Projects table (dynamic portfolio items)
+- Feedback table (contact messages)

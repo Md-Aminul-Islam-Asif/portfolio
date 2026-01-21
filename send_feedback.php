@@ -19,8 +19,7 @@ if(isset($_POST['send'])){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'aminulasif20@gmail.com';   // 🔴 your gmail
-    $mail->Password = 'pozr nvxy fqnt acei';      // 🔴 16-digit app password
+         // 🔴 16-digit app password
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
